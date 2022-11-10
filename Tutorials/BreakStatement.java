@@ -1,14 +1,10 @@
-import java.util.*;
 public class BreakStatement {
     public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-        do {
-            System.out.println("Enter a number:");
-            int number = sc.nextInt();
-            if((number%10) == 0) {
-                break;  //  when user enters a multiple of 10, you break out of the loop
+        for(int i = 1; i <= 5; i++){
+            if(i == 3){
+                break; //breaks out of the loop (or stops loop execution) when the value of i becomes 3 
             }
-            System.out.println("You entered the number: "+number);
-        } while(true);
+            System.out.println(i);
+        }
     }
 }
