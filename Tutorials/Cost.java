@@ -13,6 +13,7 @@ public class Cost {
         float total_cost = new_pencil_cost + new_pen_cost + new_eraser_cost;
 
         System.out.println("The total cost of items with GST is: "+total_cost);
+        sc.close();
     }
     
 }

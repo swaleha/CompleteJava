@@ -14,5 +14,6 @@ public class IncomeTaxCalculator {
         }
 
         System.out.println("Your tax is :"+tax);
+        sc.close();
     }
 }

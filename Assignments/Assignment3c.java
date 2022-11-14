@@ -21,5 +21,6 @@ public class Assignment3c {
                     break;
             default: System.out.println("Please choose a correct day of the week");
         }
+        sc.close();
     }
 }

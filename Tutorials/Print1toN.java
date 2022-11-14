@@ -9,5 +9,6 @@ public class Print1toN {
             counter++;
         }
         System.out.println();
+        sc.close();
     }
 }

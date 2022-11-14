@@ -23,5 +23,6 @@ public class Calculator {
                       break;
             default: System.out.println("wrong operator");
         }
+        sc.close();
     }
 }

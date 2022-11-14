@@ -24,5 +24,7 @@ public class Assignment4b {
         } while(choice == 1);
         System.out.println("Sum of even numbers is: " + even_sum);
         System.out.println("Sum of odd numbers is: " + odd_sum);
+        sc.close();
     }
+    
 }

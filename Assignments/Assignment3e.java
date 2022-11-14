@@ -18,5 +18,6 @@ public class Assignment3e {
         } else {
             System.out.println("It is not a leap year");
         }
+        sc.close();
     }
 }

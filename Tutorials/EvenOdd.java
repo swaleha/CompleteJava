@@ -8,5 +8,7 @@ public class EvenOdd {
         } else {
             System.out.println("ODD");
         } 
+
+        sc.close();
     }
 }

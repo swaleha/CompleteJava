@@ -1,5 +1,3 @@
-import javax.swing.event.SwingPropertyChangeSupport;
-
 public class FunctionsAndMethods {
 
     public static void printHelloWorld(){

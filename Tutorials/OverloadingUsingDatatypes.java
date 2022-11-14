@@ -1,13 +1,11 @@
 public class OverloadingUsingDatatypes {
 
     //func to calc int sum
-
     public static int sum(int a, int b){
         return a + b;
     }
 
     //func to calc float sum
-
     public static float sum(float a, float b){
         return a + b;
     }

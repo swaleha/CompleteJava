@@ -17,5 +17,6 @@ public class Assignment4c {
             }
             System.out.println("Factorial of a number is " + fact);
         }
+        sc.close();
     }
 }

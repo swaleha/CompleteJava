@@ -1,5 +1,8 @@
 import java.util.*;
 public class QuestionContinueStatement {
+    /**
+     * Program to learn the usage of continue statement in Java
+     */
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
 
@@ -11,7 +14,7 @@ public class QuestionContinueStatement {
             } 
 
             System.out.println("Your number was: " + number);
-
+            sc.close();
         }while(true);
     }
 

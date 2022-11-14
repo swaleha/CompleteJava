@@ -9,5 +9,6 @@ public class Assignment3a {
         } else {
             System.out.println("Negative number");
         }
+        sc.close();
     }
 }

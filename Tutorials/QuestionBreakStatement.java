@@ -10,5 +10,6 @@ public class QuestionBreakStatement {
             }
             System.out.println("You entered the number: "+number);
         } while(true);
+        sc.close();
     }
 }

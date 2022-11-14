@@ -10,5 +10,6 @@ public class PrintStarPattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

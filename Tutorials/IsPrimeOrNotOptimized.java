@@ -19,7 +19,7 @@ public class IsPrimeOrNotOptimized {
             } else {
                 System.out.println("Number is not prime");
             }
-
+            sc.close();
         }
     }
 }

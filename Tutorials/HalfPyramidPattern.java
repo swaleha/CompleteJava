@@ -10,5 +10,6 @@ public class HalfPyramidPattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

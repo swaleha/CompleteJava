@@ -13,5 +13,6 @@ public class Assignment3f {
         } else {
             System.out.println("It's not a leap year: "+year);
         }
+        sc.close();
     }
 }

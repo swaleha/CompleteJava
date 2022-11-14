@@ -11,5 +11,6 @@ public class FunctionWithParameters {
         int b = sc.nextInt();
         int sum = calculateSum(a, b); // actual parameters or arguments
         System.out.println("Sum is : " + sum);
+        sc.close();
     }
 }

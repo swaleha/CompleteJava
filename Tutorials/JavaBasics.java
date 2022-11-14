@@ -1,4 +1,4 @@
-import java.util.*;
+//import java.util.*;
 
 public class JavaBasics {
     public static void main(String args[]) {
@@ -94,7 +94,7 @@ public class JavaBasics {
 
 
         //Narrowing conversion or explicit conversion
-        Scanner sc = new Scanner(System.in);
+        //Scanner sc = new Scanner(System.in);
         // float a = 12.56;
         // int b = (int) a;
         // System.out.println(b);
@@ -117,7 +117,7 @@ public class JavaBasics {
         // System.out.println(a + b + c); //prints integer as output
 
 
-        // Type promtotion short, byte, char -> int and long, float, double -> double
+        // Type promotion short, byte, char -> int and long, float, double -> double
         
         // int a = 10;
         // float b = 20.25f;

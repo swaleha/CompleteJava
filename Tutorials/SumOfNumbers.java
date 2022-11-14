@@ -1,5 +1,5 @@
 import java.util.*;
-public class SumOf1stNnumbers {
+public class SumOfNumbers {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -11,5 +11,6 @@ public class SumOf1stNnumbers {
             i++;
         }
         System.out.println("Sum is: " + sum);
+        sc.close();
     }
 }
