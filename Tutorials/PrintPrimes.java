@@ -1,22 +1,23 @@
+import java.util.*;
 public class PrintPrimes {
 
-    public static void printPrimeNumbers(int num){
+    public static void primesInRange(int n){
 
-       for(int i=2; i<=num; i++){
-            if(isPrime(num)){       //true
-                System.out.println(isPrime(i));
+       for(int i=2; i<=n; i++){
+            if(isPrime(i)){       //true
+                System.out.print(i+ " ");
             }
-        System.out.println();
        }
+       System.out.println();
         
     }
 
-    public static boolean isPrime(int num) {
-        if (num == 2) {
+    public static boolean isPrime(int n) {
+        if (n == 2) {
             return true;
         }
-        for (int i = 2; i <= num; i++) {
-            if(num % i == 0){       //completely divides
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if(n % i == 0){       //completely divides
                 return false;
             }
         }
@@ -24,6 +25,6 @@ public class PrintPrimes {
     }
 
     public static void main(String args[]) {
-        printPrimeNumbers(10);
+        primesInRange(10);
     }
 }
