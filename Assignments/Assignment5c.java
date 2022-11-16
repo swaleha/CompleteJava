@@ -1,28 +1,35 @@
-
-
+import java.util.*;
 public class Assignment5c{
+    public static void main(String args[]){
+        System.out.println("Enter a number: ");
+        Scanner sc = new Scanner(System.in);
 
-    public static boolean isPalindrome(int n){
-        int myNum = n;
-        int rev = 0;
-        int rem = 0;
-        while (n > 0){
-            rem = n % 10;
-            rev = (rev * 10) + rem;
-            n = n /10;
+        int palindrome = sc.nextInt();
+        
+        if (isPalindrome(palindrome)) {
+            System.out.println("Number: " + palindrome + " is palindrome");
+        } else {
+            System.out.println("Number:" + palindrome + " is not a palindrome");
+        }
+        
+    }
+
+    public static boolean isPalindrome(int number){
+        int palindrome = number;
+        int reverse = 0;
+        int remainder = 0;
+        while (palindrome > 0){
+            remainder = palindrome % 10;
+            reverse = (reverse * 10) + remainder;
+            palindrome = palindrome / 10;
             }
 
-        if (rev == myNum) {
-            return true;
-        } else {
+            if (reverse == number) {
+                return true;
+            } 
+
             return false;
-        }
+            
        
-    }
-    
-    public static void main(String args[]){
-        
-        System.out.println(isPalindrome(1232));
-        
     }
 }

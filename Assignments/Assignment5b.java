@@ -1,3 +1,4 @@
+import java.util.*;
 public class Assignment5b {
     public static boolean isEven(int num){
         if(num % 2 == 0){
@@ -8,6 +9,13 @@ public class Assignment5b {
     }
 
     public static void main(String args[]){
-        System.out.println("The number is even: "+ isEven(0));
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number to check if it is even or odd: ");
+        int num = sc.nextInt();
+        if(isEven(num)){
+            System.out.println("Number is even");
+        } else {
+            System.out.println("Number is odd");
+        }
     }
 }
