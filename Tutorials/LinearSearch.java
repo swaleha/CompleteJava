@@ -1,3 +1,7 @@
+/*
+ * Time complexity - O(n) 
+ */
+
 public class LinearSearch {
 
     //search for number from an integer array

@@ -1,3 +1,7 @@
+/*
+ * Time complexity - O(logn) 
+ */
+
 public class BinarySearch {
 
     public static int binary_search(int numbers[], int key){
