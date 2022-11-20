@@ -7,7 +7,7 @@ public class SubArrays {
         int min_sum = Integer.MAX_VALUE;
         for(int i=0; i<numbers.length; i++){
             int start = i;
-            for(int j=i; j<numbers.length; j++){
+            for(int j=start; j<numbers.length; j++){
                 int end = j; int sum = 0;
                 
                 
