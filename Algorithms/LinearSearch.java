@@ -1,3 +1,4 @@
+package Algorithms;
 /*
  * Time complexity - O(n) 
  */
