@@ -1,6 +1,7 @@
-package Algorithms;
 /*
  * Time complexity - O(logn) 
+ * Binary search only works on sorted set of elements
+ * 
  */
 
 public class BinarySearch {
