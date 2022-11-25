@@ -18,7 +18,7 @@ public class MaxSumOfSubArray {
                 for(int k=start; k<=end; k++){
                     currSum += numbers[k];
                 }
-                System.out.println("Sum of sub-arrays: " + currSum);
+                //System.out.println("Sum of sub-arrays: " + currSum);
                 if(maxSum < currSum){
                     maxSum = currSum;
                 }
