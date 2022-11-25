@@ -1,34 +1,59 @@
+/*
+ * Search In Rotated Sorted Array java program
+ * Time complexity is O(log n) because for every iteration one half of the array is discarded
+ */
 public class Assignment6b {
 
-    public static void sort_rotate(int nums[]){
-        
-    }
+    public static int search(int nums[], int target){
+        //[4, 5, 6, 7, 0, 1, 2]
 
-    public static int binary_search(int nums[], int target){ 
-        int first = 0;
-        int last = nums.length - 1;
+        //left and right 
+        int left = 0;
+        int right = nums.length - 1;
 
-        while(first <= last){
-            int mid = (first + last) / 2;
+        // handling array is empty corner case
+        if(nums == null || nums.length == 0){
+            return -1;
+        }
 
-            if(nums[mid] == target){
-                return mid;
-            }
-
-            if(target < nums[mid]){
-                last = mid - 1;
-            }
-
-            if(target > nums[mid]){
-                first = mid + 1;
+        //check the index where array is rotated
+        while (left < right) {
+            int midpoint = left + (right - left) / 2;
+            if(nums[midpoint] > nums[right]){
+                left = midpoint + 1;
+            } else {
+                right = midpoint;
             }
         }
 
+        int pivot = left;
+        left = 0;
+        right = nums.length - 1;
+
+        if(target >= nums[pivot] && target <= nums[right]){
+            left = pivot;
+        } else {
+            right = pivot; 
+        }
+
+        //perform normal binary search
+        while(left <= right){
+            int midpoint = left + (right - left) / 2;
+            if(nums[midpoint] == target){
+                return midpoint;
+            } else if(nums[midpoint] < target){
+                left = midpoint + 1;
+            } else {
+                right = midpoint - 1;
+            }
+        }
         return -1;
     }
+
+        
     public static void main(String args[]){
         int nums[] = {4, 5, 6, 7, 0, 1, 2};
         int target = 1;
-        System.out.println(binary_search(nums, target));
+        System.out.println(search(nums, target));
     }
 }
