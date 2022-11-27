@@ -32,10 +32,9 @@ public class Assignment6b {
 
         if(target >= nums[pivot] && target <= nums[right]){
             left = pivot;
-        } else {
-            right = pivot; 
+        } else {  
+            right = pivot;
         }
-
         //perform normal binary search
         while(left <= right){
             int midpoint = left + (right - left) / 2;
