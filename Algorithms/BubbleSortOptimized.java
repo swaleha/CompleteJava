@@ -1,7 +1,8 @@
 /*
- * Time complexity: O(n)
- * Bubble sort time complexity reduces for a sorted array 
+ * Time complexity: O(n) for sorted array and O(n2) for unsorted array
+ * Bubble sort time complexity reduces for a sorted array and remains O(n2) for an unsorted array
  */
+
 public class BubbleSortOptimized {
 
     public static void bubble_sort(int arr[]){
