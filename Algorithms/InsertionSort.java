@@ -1,17 +1,18 @@
 public class InsertionSort {
 
     public static void basicInsertionSort(int arr[]){
-        for(int i=0; i<arr.length; i++){
+        for(int i=1; i<arr.length; i++){ 
             int curr = arr[i];
-            int prev = i-1;
+            int prev = i-1; //check sorted part
 
-            //finding the right/correct position to insert
-            while(prev>=0 && arr[prev]>curr){
+            while(prev >= 0 && arr[prev] > curr){
                 arr[prev+1] = arr[prev];
                 prev--;
             }
-            //insertion
+
+            //placement
             arr[prev+1] = curr;
+
         }
     }
 
