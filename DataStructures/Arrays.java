@@ -19,6 +19,9 @@ public class Arrays {
 
         int percentage = (marks[0] + marks[1] + marks[2])/3;
         System.out.println("Your percentage is " + percentage +"%");
+
+
+        //Array.length is a property of arrays
         System.out.println("Length of marks array is : " +marks.length);
         System.out.println("Length of numbers array is: "+numbers.length);
         System.out.println("Length of fruits array is: "+fruits.length);
