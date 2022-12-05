@@ -1,6 +1,12 @@
 import java.util.*;
-
 public class Strings {
+
+    public static void printLetters(String fullName){
+        for(int i=0; i<fullName.length(); i++){
+            System.out.print(fullName.charAt(i) + " ");
+        }
+        System.out.println();
+    }
 
     public static void main(String args[]){
     char ch[] = {'a', 'b', 'c', 'd'};
@@ -15,7 +21,7 @@ public class Strings {
     //String str3 = sc.next();  //prints only one word
     //System.out.println(str3);
 
-    System.out.println("Enter a two or more words: ");
+    System.out.println("Enter two or more words in a string: ");
     String str4 = sc.nextLine(); //prints a line of string
     System.out.println(str4);
 
@@ -28,6 +34,15 @@ public class Strings {
     String fullName = firstName + " " + lastName;
     System.out.println(fullName);
 
+    //Length() function returns number of characters in a string (i.e string length)
+
+    System.out.println("Length of " + fullName + " string is: " + fullName.length());
+
+    //charAt(i) -> This function returns character at the index in the String
+    System.out.println("First letter in the word " + fullName + " is: " + fullName.charAt(0));
+
+    //print letters in a string
+    printLetters(fullName);
 
     }
 }
