@@ -1,3 +1,4 @@
+package ControlStructures;
 public class DoWhileLoop {
     public static void main(String args[]){
         int counter = 11;

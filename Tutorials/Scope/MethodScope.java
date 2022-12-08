@@ -1,3 +1,4 @@
+package Scope;
 public class MethodScope {
     public static void printS(){
         int s = 4; // scope of variable 's' is only within the printS method

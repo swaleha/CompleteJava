@@ -1,3 +1,4 @@
+package Scope;
 public class BlockScope {
     public static void main(String args[]){
         int p = 10;
