@@ -5,6 +5,11 @@ public class UpdateIthBitOperation{
         return n & bitMask;
     }
 
+    public static int setIthBit(int n, int i){
+        int bitMask = 1 << i;
+        return n | bitMask;
+    }
+
     public static int updateIthBit(int n, int i){
         n = clearIthBit(n, i);    
         int bitMask = n << i;
