@@ -1,3 +1,8 @@
+/*
+ * Time complexity is log(n) + 1
+ * 
+ */
+
 public class FastExponentiation {
     public static int fastExpo(int a, int n){
         int ans = 1;
