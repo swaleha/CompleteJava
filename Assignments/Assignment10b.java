@@ -1,3 +1,6 @@
+/*
+ * swap without using third variable
+ */
 public class Assignment10b {
     public static void main(String[] args) {
         int x=3, y=4;
