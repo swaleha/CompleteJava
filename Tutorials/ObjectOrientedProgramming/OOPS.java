@@ -41,15 +41,7 @@ class Pen {
     }
 }
 
-// class Student{
-//     String name;
-//     int age;
-//     float percentage;
 
-//     void calcPercentage(int phy, int chem, int math){
-//         float percentage = (phy + chem + math) / 3;
-//     }
-//}
 
 // class BankAccount{
 //     public String username;
