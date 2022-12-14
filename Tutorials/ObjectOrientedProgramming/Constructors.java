@@ -15,6 +15,9 @@ public class Constructors {
         Student s4 = new Student(s1);       //copy constructor
         s4.password = "xyz";
 
+        s1.marks[2] = 100;
+
+
         for(int i=0; i<3; i++){
             System.out.print(s4.marks[i] + " ");
         }
@@ -54,15 +57,26 @@ class Student{
         System.out.println("Constructor is called..");
     }
 
-    /* Copy constructor */
+    /* Shallow Copy constructor: Here the references are copied so changes in the marks array reflect */
+    // Student (Student s1){
+    //     marks = new int[3];
+    //     this.name = s1.name;
+    //     this.rollNo = s1.rollNo;
+    //     this.marks = s1.marks;           // shallow copy
+        // System.out.println(this.name);
+        // System.out.println(this.rollNo);
+        // System.out.println(this.password);
+    // }
+
+
+    /* Deep Copy Constructor: New array is created so changes to the existing array don't reflect */
     Student (Student s1){
         marks = new int[3];
         this.name = s1.name;
         this.rollNo = s1.rollNo;
-        this.marks = s1.marks;
-        // System.out.println(this.name);
-        // System.out.println(this.rollNo);
-        // System.out.println(this.password);
+        
+        for(int i=0; i<3; i++){
+            this.marks[i] = s1.marks[i];    //deep copy
+        }
     }
-
 }
