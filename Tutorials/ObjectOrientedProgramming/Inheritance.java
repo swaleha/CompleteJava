@@ -26,6 +26,7 @@ public class Inheritance{
 
             Mimic parakeet = new Mimic();
             parakeet.mimicking();
+            parakeet.eat();
         }
     }
 
