@@ -3,12 +3,10 @@
  * 1. Single inheritance: Parent/Base class -> Derived/class
  * 2. Multi-level inheritance:
  *  Base class -> derived class1 -> derived class2
- *  (eg, Animal -> Mammal -> Cat)
+ *  (eg. Animal -> Mammal -> Cat)
  *  3. Hierarchial inheritance:
- *  Base class -> Derived class1,
- *  Base class -> Derived class2,
- *  Base class -> Derived class3
- *  Eg, Animal -> Mammal, Animal -> Fish, Animal -> Bird
+ *  Base class -> Derived class1, Base class -> Derived class2, Base class -> Derived class3
+ *  (eg. Animal -> Mammal, Animal -> Fish, Animal -> Bird)
  *  4. Hybrid Inheritance: It's the combination of multi-level and hierarchial inheritance
 */
 
