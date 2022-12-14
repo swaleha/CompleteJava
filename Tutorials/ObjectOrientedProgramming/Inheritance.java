@@ -8,6 +8,7 @@
  *  Base class -> Derived class1, Base class -> Derived class2, Base class -> Derived class3
  *  (eg. Animal -> Mammal, Animal -> Fish, Animal -> Bird)
  *  4. Hybrid Inheritance: It's the combination of multi-level and hierarchial inheritance
+ *  5. Multiple Inheritance: Here more than one parent class are inherited by a child class. Formally not supported by Java but could be implemented using interfaces.
 */
 
 public class Inheritance{
