@@ -11,6 +11,10 @@ public class Inheritance{
             tom.eat();
             tom.legs = 4;
             tom.breed = "Siberian";
+
+            Bird budgy = new Bird();
+            budgy.fly();
+            budgy.breathe();
         }
     }
 
