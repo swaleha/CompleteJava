@@ -101,7 +101,6 @@ class Cat extends Mammal {
     }
 }
 
-
 /* */
 class Dog extends Mammal {
     String breed;
