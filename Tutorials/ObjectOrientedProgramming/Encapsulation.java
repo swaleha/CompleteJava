@@ -1,3 +1,10 @@
+/*
+ * Encapsulation: Wraps data and methods into a single entity/capsule. 
+ * Eg. Data Hiding is implemented using Encapsulation
+ *
+ * Different Access Specifiers/Modifiers are used to implement data hiding.
+ * Private < Default < Protected < Public
+ */
 public class Encapsulation {
     public static void main(String[] args) {
         Pen p1 = new Pen();
