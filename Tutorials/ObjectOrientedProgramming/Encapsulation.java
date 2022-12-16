@@ -1,7 +1,7 @@
 /*
  * Encapsulation: Wraps data and methods into a single entity/capsule. 
  * Eg. Data Hiding is implemented using Encapsulation
- *
+ * Class is blueprint of an object
  * Different Access Specifiers/Modifiers are used to implement data hiding.
  * Private < Default < Protected < Public
  */
