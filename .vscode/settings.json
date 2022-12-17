@@ -6,5 +6,6 @@
         "nums",
         "sumofthree",
         "WNEENESENNN"
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
