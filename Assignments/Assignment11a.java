@@ -10,12 +10,14 @@ public class Assignment11a {
         //c.add(4, 5);
 
         Complex e = Complex.add(c, d);
-        Complex f = Complex.add(c, d);
-        Complex g = Complex.add(c, d);
-        
         e.printComplex();
+
+        Complex f = Complex.diff(c, d);
         f.printComplex();
+
+        Complex g = Complex.prod(c, d);
         g.printComplex();
+
     }
 }
 
