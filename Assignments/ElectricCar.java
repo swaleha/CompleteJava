@@ -23,7 +23,7 @@ public class ElectricCar extends Car {
     }
 
     public static void main(String[] args) {
-        final Car car = new ElectricCar();
+        final Car car = new ElectricCar();  //reassignment is not allowed for final variable
         System.out.println(car.drive());
     }
 }
