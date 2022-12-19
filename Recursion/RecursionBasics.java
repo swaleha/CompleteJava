@@ -10,10 +10,13 @@
  */
 public class RecursionBasics {
     public static void main(String[] args) {
-        printDec(10);
+        //printDec(10);
+        printInc(10);
         System.out.println();
     }
 
+
+    //printing numbers in decreasing order
     public static void printDec(int n){
 
         //Base case
@@ -25,4 +28,17 @@ public class RecursionBasics {
         System.out.print(n + " ");
         printDec(n-1);
     }
+
+    //printing numbers in increasing order
+    public static void printInc(int n){
+        //Base case
+        if(n == 1){
+            System.out.print(n + " ");
+            return;
+        }
+
+        printInc(n-1);
+        System.out.print(n + " ");
+    }
+
 }
