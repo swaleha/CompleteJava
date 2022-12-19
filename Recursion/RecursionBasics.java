@@ -8,7 +8,7 @@
  * 2. Work
  * 3. inner call
  *
- * Main method() and recursive method() calls are stored in the call stack
+ * Main method() and recursive method() calls are stored in the call stack during execution
  */
 public class RecursionBasics {
     public static void main(String[] args) {
