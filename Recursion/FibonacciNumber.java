@@ -1,3 +1,7 @@
+/*
+ * Space complexity: O(n)
+ * Time complexity: exponential O(2^n)
+ */
 public class FibonacciNumber {
     public static void main(String[] args) {
         int n = 5;
