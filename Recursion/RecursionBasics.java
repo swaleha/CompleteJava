@@ -44,7 +44,4 @@ public class RecursionBasics {
         printInc(n-1);
         System.out.print(n + " ");
     }
-
-    
-
 }
