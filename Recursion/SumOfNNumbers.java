@@ -1,5 +1,6 @@
 /*
- * 
+ * Time complexity : O(n)
+ * Space complexity: O(n)
  */
 public class SumOfNNumbers {
     public static void main(String[] args) {
