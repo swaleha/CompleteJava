@@ -1,3 +1,6 @@
+/*
+ * Time and space complexity: O(n)
+ */
 public class CheckSortedArray {
 
     public static boolean isSorted(int arr[], int i){
