@@ -1,3 +1,6 @@
+/*
+ * Time and space complexity is O(n)
+ */
 public class FirstOccurrence {
     public static void main(String[] args) {
         int arr[] = {8, 3, 6, 9, 5, 2, 4, 5, 1};
