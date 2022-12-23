@@ -1,3 +1,8 @@
+/*
+ * print x to the power n
+ * Time complexity is O(n)
+ */
+
 public class XToThePowerN {
     public static void main(String[] args) {
         System.out.println(power(2, 10));
