@@ -3,7 +3,7 @@
  */
 public class LastOccurrence {
     public static void main(String[] args) {
-        int arr[] = {5, 5, 5, 5};         //{8, 3, 6, 9, 5, 10, 2, 5, 7};                                    // arr[] = {5, 5, 5, 5};
+        int arr[] = {8, 3, 6, 9, 5, 10, 2, 5, 7};  //{5, 5, 5, 5};                                    // arr[] = {5, 5, 5, 5};
         System.out.println(lastOccurrenceOfNumber(arr, 0, 5));
     }
 
@@ -14,7 +14,6 @@ public class LastOccurrence {
         }
 
         //Look forward
-        System.out.println("I = " + i);
         int isFound = lastOccurrenceOfNumber(arr, i+1, key);
 
         //check with self
