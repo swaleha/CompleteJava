@@ -1,5 +1,5 @@
 /*
- * Tiling Problem:
+ * Tiling Problem: Solved using recursion
  * Given a "2 X n" floor/board and tiles size of "2 X 1",
  * count the number of ways to tile the given board/floor
  * using the 2 X 1 tiles.
@@ -14,16 +14,16 @@ public class TilingProblem {
         if(n==0 || n==1){
             return 1;
         }
-
+ 
         //vertical tiling
-        int verticalTiles = tiling(n-1);
+        //int verticalTiles = tiling(n-1);
 
         //horizontal tiling
-        int horizontalTiles = tiling(n-2);
+        //int horizontalTiles = tiling(n-2);
 
         //total ways of placing the tiles
-        int totWays = verticalTiles + horizontalTiles;
-
-        return totWays;
+        //int totWays = verticalTiles + horizontalTiles;
+        //return totWays;
+        return tiling(n-1) + tiling(n-2);
     }
 }
