@@ -19,7 +19,7 @@ public class FriendsPairingProblem {
 
         //pair
         //int fnm2 = friendsPairing(n-2);
-        //int totPairs = (n-1) * friendsPairing(n-2);
+        //int totPairs = (n-1) * friendsPairing(n-2); //(n-1) is pair choice; f(n-2) is after 1 pair, applying the same rule for remaining pairs
 
         //total ways
         //int totWays = fnm1 + fnm2;
