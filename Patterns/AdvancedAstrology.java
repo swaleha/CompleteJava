@@ -44,9 +44,10 @@ public class AdvancedAstrology {
         printStars(3);
     }
     public static void main(String[] args) {
-        
         printTriangle(5);
+        System.out.println("____________________________");
         printChristmasTree(4);
+        System.out.println("____________________________");
         printChristmasTree(10);
     }
 }
