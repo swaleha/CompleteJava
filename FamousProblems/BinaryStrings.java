@@ -1,3 +1,7 @@
+/*
+ * Print all binary strings of size N without consecutive ones.
+ */
+
 public class BinaryStrings {
 
     public static void printBinStrings(int n, int lastPlace, String str) {
