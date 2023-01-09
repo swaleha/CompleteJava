@@ -12,6 +12,7 @@ public class Practice12b {
             return;
         }
 
+        //work
         int lastDigit = number % 10;
         printDigits(number/10);
         System.out.print(digits[lastDigit] + " ");
