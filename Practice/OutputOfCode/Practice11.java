@@ -1,3 +1,4 @@
+package OutputOfCode;
 /*
  * infinite loops
  */

@@ -1,3 +1,4 @@
+package OutputOfCode;
 public class Practice9 {
     public static void main(String[] args) {
         int meal = 5;

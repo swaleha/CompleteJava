@@ -1,3 +1,4 @@
+package OutputOfCode;
 public class Practice10 {
     public static void main(String[] args) {
         int count = 0;

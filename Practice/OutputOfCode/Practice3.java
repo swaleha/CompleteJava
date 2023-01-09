@@ -1,3 +1,4 @@
+package OutputOfCode;
 /*
  * Print output
  * 1
