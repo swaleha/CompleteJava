@@ -20,13 +20,13 @@ public class TowerOfHanoi {
         }
 
         //transfer top n-1 from src to helper using dest as 'helper'
-        towerOfHanoifunction(n-1, src, helper, dest);
+        towerOfHanoifunction(n-1, src, dest, helper);
 
-        //transfer last disk from src to dest
-        System.out.println("transfer disk " + n + " from " + src + " to " + dest);
+        //transfer last disk/nth disk from src to dest
+        System.out.println("transfer disk " + n + " from " + src + " to " + helper);
 
         //transfer n-1 disks from helper to dest using src as 'helper'
-        towerOfHanoifunction(n, helper, src, dest);
+        towerOfHanoifunction(n-1, helper, src, dest);
     }
     public static void main(String[] args) {
         int n = 4;
