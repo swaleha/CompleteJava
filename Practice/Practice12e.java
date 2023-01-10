@@ -1,4 +1,7 @@
-/*
+/* 
+ * Solved using recursion
+ * Time complexity: (2^n)
+ * 
  * Rules:
  * 1. Only one disk can be moved at a time.
  * 2. Top-most disk can only be moved
