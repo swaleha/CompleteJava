@@ -2,7 +2,7 @@
  * Time complexity: O(n) -> here n is proportional to the length of the string
  */
 
-public class firstAndLastOccurence {
+public class firstAndLastOccurrence {
     public static int first = -1;
     public static int last = -1;
     public static void findOccurrence(String str, int idx, char element) {
